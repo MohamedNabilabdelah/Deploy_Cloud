@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 
-df2=pd.read_csv('../Sale_Store_Pross.csv')
+df2=pd.read_csv('Sale_Store_Pross.csv')
 #df2['year']=df2['year'].astype(str)
 st.title('Sale_Store_analysis')
 
